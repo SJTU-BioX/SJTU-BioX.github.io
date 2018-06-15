@@ -1,0 +1,459 @@
+body {
+    position: relative;
+    font-family: Roboto, /* 1 */
+    -apple-system, BlinkMacSystemFont, /* 2 */
+    "Microsoft Yahei", sans-serif;
+}
+
+.old-browser-warning {
+    display: none;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+
+/*
+.wow {
+    visibility: hidden;
+}
+*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+}
+
+.navbar-toggler {
+    top: 0.75rem;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+
+/*next one fix problem in IE 10
+
+.navbar-collapse {
+    flex-basis: auto;
+    flex-grow: 1;
+}
+*/
+
+.nav-item {
+    width: inherit;
+}
+
+.collapsing {
+    -webkit-transition: height 0.5s ease-in-out;
+    -o-transition: height 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.scrolling-navbar2 {
+    -webkit-transition: background .35s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .35s ease-in-out, padding .5s ease-in-out;
+    transition: background .35s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #951016;
+}
+
+.white-font {
+    color: #fff;
+}
+
+.card img {
+    border-radius: .3rem .3rem 0 0;
+}
+
+.card .card-body p {
+    margin-bottom: 0;
+}
+
+.full-bg {
+    min-height: 100vh;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    z-index: 1;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.fluid-bg {
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    z-index: 1;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 576px) {
+    .small-row {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .small-row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}
+
+.middle-row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.divider-new {
+    padding-top: 5rem;
+    margin-top: 0px;
+}
+
+footer.page-footer {
+    background-color: #951016;
+    padding-top: 0;
+    margin-top: 3rem;
+}
+
+footer.page-footer {
+    margin-top: 0;
+}
+
+footer.page-footer .footer-copyright {
+    color: #ddd;
+}
+
+.hm-white-my-light .mask,
+.hm-white-my-light .full-bg-img {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hm-white-my .mask,
+.hm-white-my .full-bg-img {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.full-bg-img {
+    padding: 1rem;
+}
+
+
+/* fix mask always cause wave-effect bug */
+
+.view .mask2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.h3-my2-responsive {
+    margin-bottom: 0;
+    line-height: 1.5em;
+}
+
+
+/*history*/
+
+.scroll-box .nav-item a {
+    color: #404040;
+    font-size: 110%;
+    line-height: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.scroll-box {
+    margin-top: 7rem;
+    position: fixed;
+    margin-left: 40px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 992px) {
+    .scroll-box {
+        margin-left: 20px;
+    }
+}
+
+.scroll-box .nav-item a:hover {
+    color: #037be5;
+}
+
+.scroll-box .nav-item .active,
+.scroll-box .nav-item .active:hover {
+    color: #5050E9;
+    font-weight: 600;
+}
+
+.onesection {
+    padding-top: 0rem;
+}
+
+.section-helper {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.onesection .h3-responsive {
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+@media (max-width: 425px) {
+    .table-res1 {
+        display: block;
+        width: auto;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+}
+
+@media (max-width: 768px) {
+    .table-res2 {
+        display: block;
+        width: auto;
+        overflow-x: auto;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+}
+
+.list::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0);
+    border-left: 1px solid rgba(0, 0, 0, 0);
+}
+
+.table-res::-webkit-scrollbar {
+    width: 2px;
+    height: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.table-res::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-clip: padding-box;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    min-height: 10px;
+}
+
+.table-res::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.table td {
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+}
+
+.table th {
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.table.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media only screen and (max-width: 768px) {
+    .h1-my-responsive,
+    .section .section-heading {
+        font-size: 170%;
+        font-weight: 500;
+    }
+    .h2-my-responsive {
+        font-size: 140%;
+    }
+    .h3-my-responsive {
+        font-size: 125%;
+    }
+    .h3-my2-responsive {
+        font-size: 125%;
+        font-weight: 400;
+    }
+    .h4-my-responsive {
+        font-size: 110%;
+    }
+    .h5-my-responsive {
+        font-size: 100%;
+    }
+    .base-responsive {
+        font-size: 100%;
+    }
+    .super-responsive {
+        font-size: 200%;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+    .h1-my-responsive,
+    .section .section-heading {
+        font-size: 200%;
+    }
+    .h2-my-responsive {
+        font-size: 170%;
+    }
+    .h3-my-responsive {
+        font-size: 140%;
+    }
+    .h3-my2-responsive {
+        font-size: 140%;
+        font-weight: 400;
+    }
+    .h4-my-responsive {
+        font-size: 125%;
+    }
+    .h5-my-responsive {
+        font-size: 110%;
+    }
+    .base-responsive {
+        font-size: 105%;
+    }
+    .super-responsive {
+        font-size: 250%;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+    .h1-my-responsive,
+    .section .section-heading {
+        font-size: 250%;
+    }
+    .h2-my-responsive {
+        font-size: 200%;
+    }
+    .h3-my-responsive {
+        font-size: 170%;
+    }
+    .h3-my2-responsive {
+        font-size: 170%;
+        font-weight: 400;
+    }
+    .h4-my-responsive {
+        font-size: 140%;
+    }
+    .h5-my-responsive {
+        font-size: 125%;
+    }
+    .base-responsive {
+        font-size: 110%;
+    }
+    .super-responsive {
+        font-size: 300%;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+    .h1-my-responsive,
+    .section .section-heading {
+        font-size: 300%;
+    }
+    .h2-my-responsive {
+        font-size: 250%;
+    }
+    .h3-my-responsive {
+        font-size: 200%;
+    }
+    .h3-my2-responsive {
+        font-size: 200%;
+        font-weight: 400;
+    }
+    .h4-my-responsive {
+        font-size: 170%;
+    }
+    .h5-my-responsive {
+        font-size: 140%;
+    }
+    .base-responsive {
+        font-size: 115%;
+    }
+    .super-responsive {
+        font-size: 350%;
+    }
+}
+
+.super-responsive {
+    line-height: 1.5em;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #ACACAC;
+    color: rgb(0, 114, 190);
+}
+
+
+/*
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Thin), url("../font/roboto/Roboto-Thin.eot");
+  src: url("../font/roboto/Roboto-Thin.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Thin.woff2") format("woff2"), url("../font/roboto/Roboto-Thin.woff") format("woff"), url("../font/roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: 200; }
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Light), url("../font/roboto/Roboto-Light.eot");
+  src: url("../font/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Light.woff2") format("woff2"), url("../font/roboto/Roboto-Light.woff") format("woff"), url("../font/roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Roboto";
+  src: local(Roboto Regular), url("../font/roboto/Roboto-Regular.eot");
+  src: url("../font/roboto/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Regular.woff2") format("woff2"), url("../font/roboto/Roboto-Regular.woff") format("woff"), url("../font/roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto/Roboto-Medium.eot");
+  src: url("../font/roboto/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Medium.woff2") format("woff2"), url("../font/roboto/Roboto-Medium.woff") format("woff"), url("../font/roboto/Roboto-Medium.ttf") format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/roboto/Roboto-Bold.eot");
+  src: url("../font/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype");
+  font-weight: 700; }
+*/
