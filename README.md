@@ -1,1 +1,1 @@
-# SJTU-BioX
+# SJTU-BioX-Shanghai
